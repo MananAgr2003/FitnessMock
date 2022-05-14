@@ -1,0 +1,10 @@
+        <img src="img/logo.jpg" alt="logo" class="logo">
+
+        <img id="bimg" src="img/pexels-william-choquette-1954524.jpg" >
+
+        #bimg{
+            height: 1000px;
+            width: 1519px;
+        }
+
+        🔍 <img id="searchicon" src="/img/search.png">
