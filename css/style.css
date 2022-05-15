@@ -29,7 +29,7 @@
 }
 .search {
     padding-top: 3px;
-    padding-left: 2px;
+    padding-left: 30px;
     font-family: 'koulen', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     background-color: white;
@@ -138,4 +138,13 @@ color: grey;
     position: absolute;
     top: 64px;
     right: 0px;
+}
+#searchicon{
+    z-index: 5;
+    height: 25px;
+    width: 25px;
+    display: block;
+    position: absolute;
+    top: 176px;
+    left: 372px;
 }
