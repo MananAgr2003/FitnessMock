@@ -12,20 +12,24 @@
 
 .mid {
     display: block;
+    position: absolute;
+    top: 75px;
+    left:350px;
     width: 50%;
-    margin: 47px 318px;
-
+    
+    
 
     
     color: white;
 }
 #searchicon{
+    z-index: 5;
+    height: 25px;
+    width: 25px;
     display: block;
-    height: 20px;
-    width: 20px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 176px;
+    left: 450px;
 }
 .search {
     padding-top: 3px;
@@ -35,7 +39,7 @@
     background-color: white;
     display: inline-block;
     position: absolute;
-    left: 367px;
+    left: 407px;
     top: 172px;
     width:600px;
     height: 30px;
@@ -51,6 +55,8 @@
     font-size: 33px;
     display: inline-block;
     list-style: none;
+    z-index: 50000;
+    
 }
 .navbar li a{
     margin: 10px;
@@ -78,10 +84,10 @@
 .form{
     display: block;
     position: absolute;
-    top: 470px;
-    left: 175px;
+    top: 375px;
+    right: 280px;
     width: 23%;
-    height: 31%;
+    height: 42.5%;
     border-radius: 8px;
     border: 2px solid white;
 }
@@ -106,8 +112,8 @@ color: grey;
     font-family: 'koulen', 'Arial Narrow', Arial, sans-serif;
     display: block;
     position: absolute;
-    top: 643px;
-    left: 189px;
+    top: 648px;
+    left: 898px;
     color: white;
     border: 2px solid white;
     background-color: black;
@@ -124,10 +130,9 @@ color: grey;
 #formh{
     display: block;
     position: absolute;
-  
     color: white;
-    top: 350px;
-    left: 115px;
+    top: 274px;
+    left: 800px;
     font-family: 'koulen', Courier, monospace;
     font-size: 56px;
 }
@@ -146,5 +151,14 @@ color: grey;
     display: block;
     position: absolute;
     top: 176px;
-    left: 372px;
+    left: 410px;
+}
+.backg{
+    
+    position: absolute;
+    height: 750px;
+    width: 1519px;
+    opacity:0.73;
+    z-index: -50000;
+    
 }
